@@ -1,0 +1,15 @@
+/* 
+What CSS is ? 
+ is cascading style sheets used to style and layout web pages. While HTML provides structure, CSS makes it beautiful */
+
+/* 
+ Why we use CSS instead of styling directly in HTML? 
+    1. Separation of concerns: Keeps content (HTML) separate from design (CSS), making code cleaner.
+    2. Reusability: One CSS file can style multiple pages.
+    3. Maintainability: It's easier to update styles in one place rather than changing multiple HTML tags.
+    4. Flexibility: CSS offers more styling options and responsive design features.
+ */
+
+ .head{
+    background-color: green;
+ }
