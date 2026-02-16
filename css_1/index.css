@@ -1,3 +1,4 @@
+/* Assignment_1 */
 /* 
 What CSS is ? 
  is cascading style sheets used to style and layout web pages. While HTML provides structure, CSS makes it beautiful */
@@ -10,6 +11,75 @@ What CSS is ?
     4. Flexibility: CSS offers more styling options and responsive design features.
  */
 
- .head{
-    background-color: green;
- }
+
+
+/* assignment_2 */
+body{
+   height: 2000px;
+}
+.head {
+   background-color: green;
+}
+
+#paragraph {
+   background-color: gray;
+   padding: 5px;
+   width: 50%;
+}
+
+span {
+   color: red;
+}
+
+div>p {
+   color: rgb(247, 97, 37);
+}
+
+.para {
+   background-color: rgba(0, 0, 0, 0.13);
+}
+
+/* Assignment_css_2 */
+.ass_2 {
+   background-color: rgba(255, 0, 0, 0.089);
+   text-align: center;
+   padding: 5px;
+}
+
+.ass_2 p {
+   color: black;
+}
+
+.ass_2>p {
+   color: blue;
+}
+
+.ass_2 article {
+   background-color: rgba(0, 128, 0, 0.356);
+   padding: 4px;
+}
+
+a[href="https://www.google.com"] {
+   background-color: rgba(137, 43, 226, 0.342);
+   display: block !important;
+   width: 50px;
+   border-radius: 10%;
+   border: 1px solid purple;
+   text-align: center;
+   padding: 5px;
+}
+
+.ass_3 p{
+   color: black;
+   background-color: rgba(0, 0, 0, 0.041);
+}
+.ass_3{
+   width: 100%;
+   height: 400px;
+   background-color: rgba(255, 0, 255, 0.233);
+   background-image: url('./assets/images/background-larg.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+}
