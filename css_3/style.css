@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+.myprofile {
+    border: 1px solid red;
+    width: 400px;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.myprofile p {
+    outline: 1px solid black;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.myprofile h2 {
+    width: 300px;
+    height: 50px;
+    padding-top: 10px;
+    background-color: rgba(255, 0, 0, 0.199);
+    text-align: center;
+}
+
+.head3 {
+    display: inline-block;
+    color: green;
+}
+
+.ptinline {
+    display: inline;
+}
+
+.hello {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.buy {
+    display: block;
+}
+
+.how {
+    display: none;
+}
+
+.over {
+    border: 1px solid green;
+    width: 500px;
+    white-space: nowrap;
+}
+
+.over-scroll {
+    border: 1px solid blue;
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+}
+
+.over-hiden {
+    border: 1px solid red;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.visibale-hidden {
+    visibility: hidden;
+}
+
+.visibale {
+    visibility: visible;
+}
+
+p,
+span,
+h2 {
+    text-decoration: underline;
+    color: #333;
+}
+
+.over p {
+    color: blueviolet;
+    font-size: 24px;
+}
+
+/* bonus */
+.bonus-1{
+    border: 2px solid green;
+    width: 300px;
+    padding: 5px;
+    margin-top: 30px;
+    box-sizing: content-box;
+}
+.bonus-2{
+    border: 4px solid red;
+    width: 300px;
+    padding: 20px;
+    margin-top: 10px;
+    /* // مش محتاجه هنا اعمل box-sizing:border-box لامي عاملاه فاول الصفحه فهو هيطبق علي الصفحه كلها عندي ماعدا اللي عامله عليه content-box */
+}
