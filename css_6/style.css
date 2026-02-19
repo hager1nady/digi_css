@@ -1,0 +1,187 @@
+/* ========================
+   MAIN HEADING (h1)
+   ======================== */
+h1 {
+    font-family: cursive;
+    /* استخدام خط cursive للتجربة */
+    font-size: 40px;
+    /* حجم الخط بوحدة px */
+    text-transform: uppercase;
+    /* تحويل النص بالكامل لأحرف كبيرة */
+    letter-spacing: 5px;
+    /* المسافة بين الحروف */
+    color: #FF5733;
+    /* لون الخط باستخدام HEX */
+    text-shadow: 2px 2px 2px red;
+    /* ظل للنص لإضافة تأثير بصري */
+}
+
+/* ========================
+   SUBHEADING (h2)
+   ======================== */
+h2 {
+    text-decoration: underline;
+    /* إضافة خط تحت النص */
+    font-size: 1.5rem;
+    /* حجم الخط باستخدام rem */
+    font-weight: 400;
+    /* سماكة الخط */
+    font-family: serif;
+    /* استخدام خط serif */
+    text-transform: capitalize;
+    /* جعل أول حرف من كل كلمة كبير */
+}
+
+.p {
+    text-align: justify;
+    /* ستخدمت text-align:justify*/
+    font-size: 1vw;
+    /*vw استخدمت*/
+    line-height: 28px;
+    /*line-height*/
+}
+
+/* ========================
+   PARAGRAPH 1 (p1) - overflow ellipsis
+   ======================== */
+.p1 {
+    font-style: italic;
+    /* جعل النص مائل */
+    color: blueviolet;
+    /* لون النص باسم اللون */
+    line-height: 20px;
+    /* ارتفاع السطر */
+    margin-bottom: 40px;
+    /* مسافة تحت الفقرة */
+    text-align: right;
+    /* محاذاة النص لليمين */
+    font-family: sans-serif;
+    /* خط sans-serif */
+    font-size: 1rem;
+    /* حجم الخط باستخدام rem */
+    width: 400px;
+    /* عرض محدد بالـ px */
+    height: 50px;
+    /* ارتفاع محدد بالـ px */
+    white-space: nowrap;
+    /* منع النص من الالتفاف للسطر الجديد */
+    overflow: hidden;
+    /* إخفاء النص الزائد */
+    text-overflow: ellipsis;
+    /* إضافة ... عند نهاية النص الزائد */
+}
+
+/* ========================
+   PARAGRAPH 2 (p2) - word spacing, text effects
+   ======================== */
+.p2 {
+    font-size: 1em;
+    /* حجم الخط بوحدة em */
+    color: rgb(34, 139, 34);
+    /* لون النص باستخدام RGB */
+    word-spacing: 5px;
+    /* المسافة بين الكلمات */
+    text-align: center;
+    /* محاذاة النص للوسط */
+    font-family: monospace;
+    /* خط monospace */
+    font-weight: 600;
+    /* سماكة الخط */
+    font-style: normal;
+    /* الخط عادي بدون ميل */
+    text-shadow: 2px 2px 2px rgb(34, 139, 34);
+    /* ظل نص بلون مشابه للنص */
+    letter-spacing: 4px;
+    /* المسافة بين الحروف */
+    text-transform: uppercase;
+    /* تحويل النص للأحرف الكبيرة */
+}
+
+/* ========================
+   PARAGRAPH 3 (p3) - normal text
+   ======================== */
+.p3 {
+    text-align: left;
+    /* محاذاة النص لليسار */
+    font-size: 1rem;
+    /* حجم الخط باستخدام rem */
+    color: blue;
+    /* لون النص باسم اللون */
+    word-spacing: 8px;
+    /* المسافة بين الكلمات */
+    font-family: "Betania Patmos In GDL", cursive;
+    /* Google Font + fallback cursive */
+    font-weight: 300;
+    /* سماكة خفيفة للخط */
+    text-transform: lowercase;
+    /* تحويل النص لأحرف صغيرة */
+}
+
+/* ========================
+   TEXT DECORATION
+   ======================== */
+.throwline {
+    text-decoration: line-through;
+    /* خط يمر عبر النص */
+}
+
+/* ========================
+   BUTTON STYLING
+   ======================== */
+button {
+    border: none;
+    /* إزالة الحدود الافتراضية */
+    background-color: green;
+    /* لون الخلفية */
+    padding: 4px 6px;
+    /* مسافة داخلية */
+    transition: 0.2s all;
+    /* حركة سلسة عند hover */
+    color: white;
+    /* لون النص */
+    display: block;
+    border-radius: 4px;
+    /* حواف دائرية */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    border: 1px solid green;
+    /* تغيير الحدود عند المرور */
+}
+
+/* ========================
+   LINKS STYLING
+   ======================== */
+a {
+    text-decoration: none;
+    /* إزالة الخط تحت الرابط */
+    font-size: 1rem;
+    /* حجم الخط */
+    font-family: sans-serif;
+    /* خط sans-serif */
+}
+
+a:hover {
+    color: green;
+    /* تغيير اللون عند المرور */
+    cursor: pointer;
+    /* أيقونة المؤشر تتحول ليد */
+}
+
+/* ========================
+   BOX SECTION
+   ======================== */
+.serif{
+    font-family: serif;
+}
+.sans{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.google{
+    font-family: "Betania Patmos In GDL", cursive;
+}
