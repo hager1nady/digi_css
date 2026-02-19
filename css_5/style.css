@@ -1,0 +1,65 @@
+h1 {
+    font-family: cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: red;
+    text-shadow: 2px 2px 2px red;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: serif;
+    text-transform: capitalize;
+}
+
+
+.p1 {
+    font-style: italic;
+    color: blueviolet;
+    line-height: 20px;
+    margin-bottom: 40px;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 1rem;
+    width: 400px;
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.p2 {
+    font-size: 1em;
+    color: green;
+    word-spacing: 5px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*“Normal text (no overflow)”*/
+.p3 {
+    text-align: left;
+    font-size: 1rem;
+    color: blue;
+    word-spacing: 8px;
+    font-family: "Betania Patmos In GDL", cursive;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.throwline {
+    text-decoration: line-through;
+}
+
+.box {
+    width: 50%;
+    height: 50vh;
+    background-color: gray;
+    padding: 1rem;
+}
