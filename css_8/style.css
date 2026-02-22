@@ -242,14 +242,14 @@ tr:nth-child(even) {
     /* optional for stripe */
 }
 
-ul {
+.ul {
     list-style-type: disc;
     padding-left: 20px;
     color: var(--text-color);
     margin-top: 50px;
 }
 
-ul li {
+.ul li {
     padding: 5px 0;
     border-left: 4px solid var(--primary-color);
     margin-bottom: 5px;
