@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* use flex box to divid page nto rows or columns */
+.parent {
+    background-color: rgba(128, 128, 128, 0.548);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50vh;
+    margin-bottom: 50px;
+}
+
+.child {
+    background-color: blue;
+    width: 20%;
+    height: 200px;
+}
+
+.child1 {
+    flex-shrink: 3;
+    background-color: red;
+}
+
+.child3 {
+    flex-grow: 2;
+    background-color: green;
+}
+
+.child4 {
+    background-color: yellow;
+    align-self: flex-end;
+
+}
+
+.child2 {
+    background-color: black;
+    flex-basis: 0;
+}
+
+.child5 {
+    background-color: blueviolet;
+}
+
+/* //Mobile Small Screen */
+@media screen and (max-width:480px) {
+    .child {
+        width: 100%;
+    }
+}
+
+/* //Mobile Larg Screen */
+@media screen and (min-width:481px) {
+    .child {
+        width: 50%;
+    }
+}
+
+/* //Mobile Tablet Screen */
+@media screen and (min-width:768px) {
+    .child {
+        width: calc(100% / 3);
+    }
+}
+
+/* //Mobile Labtop Screen */
+@media screen and (min-width:1025px) {
+    .child {
+        width: 20%;
+    }
+}
+
+.grid {
+    background-color: darkorange;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 3;
+    height: 50vh;
+}
+
+.gh {
+    background-color: green;
+    border: 1px solid white;
+}
+
+/* //use grid system to To divide the page into more rows and columns than one row and more than one column */
+.container {
+    display: grid;
+    background-color: rgba(0, 0, 255, 0.377);
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    gap: 8;
+
+}
+
+.childGh {
+    background-color: rgba(255, 0, 0, 0.411);
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
