@@ -1,0 +1,107 @@
+/* ===== Header ===== */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* ===== Navigation Menu ===== */
+nav.menu > ul > li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submenu > li {
+    display: block;
+    margin: 5px 0;
+    padding: 3px 8px;
+    background-color: #ddd;
+    border-radius: 3px;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+    height: 100vh; /* full viewport height */
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+    color: #fff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+}
+
+/* ===== Content Section ===== */
+.content {
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+/* Descendant selector: <p> داخل .content */
+.content p {
+    color: #3333cc;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Class selector: .highlight */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Nested elements: <li> داخل .nested */
+.nested li {
+    color: #990099;
+    font-style: italic;
+}
+
+/* Attribute selector: id يبدأ بـ "main" */
+[id^="main"] {
+    color: #ff6600;
+    text-transform: uppercase;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    margin-left: 10px;
+    display: inline-block;
+    color: #0f0;
+    text-decoration: none;
+    font-weight: bold;
+}

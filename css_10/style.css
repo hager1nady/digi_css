@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 2000px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-areas: 
+    "nav nav nav nav nav"
+    "content content content sidebar sidebar"
+    "footer footer footer footer footer";
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    grid-area: nav;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 255, 0.493);
+    padding: 20px 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+section .card
+{
+    background-color: green;
+    width: 50%;
+}
+
+section .card img{
+    
+}
