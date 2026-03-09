@@ -30,7 +30,7 @@ nav.menu > ul > li {
 
 /* ===== Hero Section ===== */
 .hero {
-    height: 100vh; /* full viewport height */
+    height: 100vh; 
     background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
     background-size: cover;
     background-position: center;
@@ -43,7 +43,7 @@ nav.menu > ul > li {
 }
 
 .hero-text {
-    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+    background-color: rgba(0, 0, 0, 0.5); 
     color: #fff;
     padding: 30px 50px;
     border-radius: 10px;
@@ -59,26 +59,26 @@ nav.menu > ul > li {
     font-size: 1.2rem;
 }
 
-/* ===== Content Section ===== */
+
 .content {
     padding: 20px;
     background-color: #fafafa;
 }
 
-/* Descendant selector: <p> داخل .content */
+
 .content p {
     color: #3333cc;
     font-size: 16px;
     line-height: 1.5;
 }
 
-/* Class selector: .highlight */
+
 .highlight {
     background-color: yellow;
     font-weight: bold;
 }
 
-/* Nested elements: <li> داخل .nested */
+
 .nested li {
     color: #990099;
     font-style: italic;
